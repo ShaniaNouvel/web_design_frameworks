@@ -19,7 +19,7 @@
          want to break on purpose, so index.html keeps matching the guided
          build. -->
     <main>
-      <div class="bg-paper grid grid-cols-3 gap-4 px-5 py-5">
+      <div class="bg-paper grid sm:grid-cols-3 gap-4 px-5 py-5">
           <div class="bg-lime items-center px-4 py-4 text-ink">
             <p>Advisor 1</p>
           </div>
@@ -29,28 +29,41 @@
           <div class="bg-green items-center px-4 py-4 text-ink">
             <p>Advisor 3</p>
           </div>
-          <div class="col-span-3 gap-4 bg-ink-deep items-center px-4 py-4 text-on-dark">
+          <div class="grid sm:col-span-3 bg-ink-deep items-center px-4 py-4 text-on-dark">
             <p>Book and appointment</p>
           </div>
       </div>
 
       <hr>
 
-      <div class="bg-paper grid grid-cols-5 gap-4 px-5 px-4 items-center">
-        <div  class="grid col-span-5 items-center">
-          <p>Weekday Planner</p>
-        </div>
-        <ul class="grid grid-cols-5 col-span-5">
-          <li>Monday</li>
-          <li>Tuesday</li>
-          <li>Wednesday</li>
-          <li>Thursday</li>
-          <li>Friday</li>
-        </ul>
-        <div>
+      <ul class="bg-paper gap-4 p-10 grid sm:grid-cols-2 md:grid-cols-4">
+        <li class="grid sm:col-span-2 md:col-span-5 items-center font-bold text-xl">
+        <p>Weekday Planner</p>
+        </li>
+        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+          <p class="font-bold text-lg items-center">Monday</p>
+          
+        </li>
+        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+          <p class="font-bold text-lg items-center">Tuesday</p>
+          test 
+        </li>
+        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+          <p class="font-bold text-lg items-center">Monday</p>
+          test 
+        </li>
+        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+          <p class="font-bold text-lg items-center">Tuesday</p>
+          test 
+        </li>
+        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+          <p class="font-bold text-lg items-center">Tuesday</p>
+          test 
+        </li>
+        <li class="grid sm:col-span-2 md:col-span-5 items-center font-bold text-xl">
           <p>Notes</p>
-        </div>
-      </div>
+        </li>
+      </ul>
 
     </main>
   </body>
