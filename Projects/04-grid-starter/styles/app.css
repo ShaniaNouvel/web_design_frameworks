@@ -19,6 +19,10 @@
   --color-holder: oklch(98.8% 0.003 106.5);
   --color-task: oklch(93% 0.007 106.5);
   --color-on-task: oklch(39.4% 0.023 107.4);
+  --color-grey: oklch(27.8% 0.033 256.848);
+  --color-light-grey: oklch(44.6% 0.03 256.802);
+  --color-ink-grey: oklch(70.7% 0.022 261.325);
+  --color-white: oklch(96.7% 0.003 264.542);
 
   /* Same mechanism as --text-display from week 1: a clamp()ed size,
      available as the text-h2 utility. Week 7 covers writing your own. */
