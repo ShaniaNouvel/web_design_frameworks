@@ -20,6 +20,7 @@
          build. -->
     <main>
       <div class="bg-paper grid sm:grid-cols-3 gap-4 px-5 py-5">
+          <p class="sm:col-span-3 font-bold text-xl g-grey items-center underline">[TASK] Without the net</p>
           <div class="bg-lime items-center px-4 py-4 text-ink">
             <p>Advisor 1</p>
           </div>
@@ -37,31 +38,70 @@
       <hr>
 
       <ul class="bg-paper gap-4 p-10 grid sm:grid-cols-2 md:grid-cols-4">
-        <li class="grid sm:col-span-2 md:col-span-5 items-center font-bold text-xl">
-        <p>Weekday Planner</p>
+        <p class="sm:col-span-3 font-bold text-xl g-grey items-center underline">[TASK] Build a Timetable Grid</p>
+        <li class="grid sm:col-span-2 md:col-span-4 items-center font-bold text-xl p-5 border border-olive-500 rounded-sm bg-holder">
+        <p>School Timetable</p>
         </li>
-        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+        <li class="p-5 border border-olive-500 rounded-sm bg-holder"> 
           <p class="font-bold text-lg items-center">Monday</p>
-          
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md text-on-task">
+            <p class="font-semibold text-base items-center">Advanced Databases</p>    
+            <p class="text-base items-center">9am - 11am</p>    
+          </div>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">Advanced Databases</p>    
+            <p class="text-base items-center">12pm - 2pm</p>    
+          </div>
         </li>
-        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
+        <li class="p-5 border border-olive-500 rounded-sm bg-holder"> 
           <p class="font-bold text-lg items-center">Tuesday</p>
-          test 
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">Advanced Web Development</p>    
+            <p class="text-base items-center">11am - 2pm</p>    
+          </div>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">Advanced Web Development</p>    
+            <p class="text-base items-center">3pm  - 5pm</p>    
+          </div> 
         </li>
-        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
-          <p class="font-bold text-lg items-center">Monday</p>
-          test 
+        <li class="p-5 border border-olive-500 rounded-sm bg-holder"> 
+          <p class="font-bold text-lg items-center">Wednesday</p>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">User Exp & Interaction Design</p>    
+            <p class="text-base items-center">10am - 12pm</p>    
+          </div>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">User Exp & Interaction Design</p>    
+            <p class="text-base items-center">1pm - 3pm</p>    
+          </div>
         </li>
-        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
-          <p class="font-bold text-lg items-center">Tuesday</p>
-          test 
+        <li class="p-5 border border-olive-500 rounded-sm bg-holder"> 
+          <p class="font-bold text-lg items-center">Thursday</p>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">No Classes</p>    
+            <p class="text-base items-center">:D</p>    
+          </div>
         </li>
-        <li class="p-5 border border-olive-500 rounded-sm bg-olive-100"> 
-          <p class="font-bold text-lg items-center">Tuesday</p>
-          test 
+        <li class="p-5 border border-olive-500 rounded-sm bg-holder"> 
+          <p class="font-bold text-lg items-center">Friday</p>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">User Exp & Interaction Design</p>    
+            <p class="text-base items-center">10am - 12pm</p>    
+          </div>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">Web Design Frameworks</p>    
+            <p class="text-base items-center">1pm - 3pm</p>    
+          </div>
         </li>
-        <li class="grid sm:col-span-2 md:col-span-5 items-center font-bold text-xl">
-          <p>Notes</p>
+        <li class="md:col-span-3 p-5 border border-olive-500 rounded-sm bg-holder items-start">
+          <p class="font-bold text-lg p-1">Notes</p>  
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <p class="font-semibold text-base items-center">Do homework for Web Design Frameworks</p>    
+            <p class="text-base items-center">Due Wednesday</p>    
+          </div>
+          <div class="p-5 mt-4 border border-olive-500 rounded-md bg-task shadow-md">
+            <a href="https://uxixd.vercel.app/" class="font-semibold text-base items-center">User Exp & Interaction Design Website</a>    
+          </div>
         </li>
       </ul>
 
