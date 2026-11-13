@@ -13,30 +13,34 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <nav class="flex flex-wrap items-center justify-between bg-background p-4 text-text text-3xl p-5 border-b-2">
+    <header>   
+        <nav class="flex flex-wrap items-center justify-between bg-background p-4 p-5 border-b-2 border-dark-blue-500">
             <a href="index.html" class="flex flex-wrap items-center gap-2">
                 <div src="" alt="" class="rounded-sm bg-dark-blue-500 w-5 h-5"></div>
-                <h1 class="font-heading font-bold" >My App</h1>
+                <h1 class="font-heading text-body xl:text-h2 font-bold" >Support Crew</h1>
             </a>
-            <button class="flex items-center size-10">
+            <button class="flex items-center size-6">
                 <svg data-nav-toggle-icon-open="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M4 6h16M4 12h16M4 18h16"></path></svg>
             </button>
         </nav>
     </header>
-    <main  class="flex-1 p-4">
-        <div class="text-3xl flex h-40 items-center justify-center">
-            <h1 class="bg-dark-blue-500 p-10 text-cream-500 rounded-sm">Home page in progress<h1>
+    <main  class="flex flex-col items-center justify-center p-4">
+        <div class="text-body p-6 xl:p-10 xl:text-title flex flex-col h-40 justify-center bg-dark-blue-500 mb-2 rounded-md">
+            <h1 class="text-cream-500">Your independence <span class="font-bold">starts now!</span></h1>
+            <p class="text-p text-cream-500">Care and support designed for independence and confidence with technology.</p>
         </div>
+        <a href="process.html" class="bg-blue-200 border-2 border-dark-blue-500 rounded-md text-text  w-50 p-4 text-wrap">
+            Request support ->
+        </a>
     </main>
-    <footer class="mt-auto bg-dark-blue-500 text-cream-500 p-4">
+    <footer class="mt-auto bg-dark-blue-500 text-cream-500 p-4 ">
         <div class="flex flex-col justify-center items-center flex-wrap gap-4 text-cream-500">
-            <a href="" class="flex flex-wrap items-center gap-2 text-3xl">
+            <a href="" class="flex flex-wrap items-center gap-2 text-body xl:text-h2">
                 <div src="" alt="" class="rounded-sm bg-background w-5 h-5"></div>
-                <h1 class="font-heading font-bold" >My App</h1>
+                <p class="font-heading font-bold" >My App</p>
             </a>
-            <ul class="flex flex-col items-center justify-center gap-4 text-xl">
+            <ul class="flex flex-col items-center justify-center gap-4 text-body xl:text-h2">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="process.html">Process</a></li>
                 <li><a href="how-it-works.html">How it works</a></li>

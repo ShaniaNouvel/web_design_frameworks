@@ -19,8 +19,10 @@
    --font-sans: "Lato", system-ui, -apple-system, "Segoe UI", sans-serif;
 
    --text-body: 1.25rem;
+   --text-p: 1rem;
    --text-heading: 1.953rem;
-   --text-title: 2.441rem;
+   --text-title: 1.953rem;
+   --text-h2: 1.563rem;
 
 
 }
